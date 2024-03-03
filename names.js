@@ -14,5 +14,5 @@ function generate() {
         }
     }
 
-    return alert(joined);
+    return joined;
 }

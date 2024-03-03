@@ -10,5 +10,8 @@
     <script src="names.js"></script>
 </head>
 <body>
-    <h1><button onclick="generate()">Test</button></h1>
+    <div x-data="{joined: 'Chord Generator'}">
+        <h1 x-text="joined"></h1>
+        <button @click="generate()">Generate</button>
+    </div>
 </body>
