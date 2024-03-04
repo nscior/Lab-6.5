@@ -1,6 +1,21 @@
 ---
 layout: layout.liquid
-title: Lab 6.5
+title: Random Chord Name Generator
 ---
+<!DOCTYPE html>
 
-<h1><strong>Test</strong></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Chord Name Generator</title>
+    <link rel="stylesheet" href="styles/screen.css">
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <div x-data="generate">
+        <h1 x-text="name"></h1>
+        <button @click="name = name">Generate</button>
+    </div>
+    <script src="names.js"></script>
+</body>
