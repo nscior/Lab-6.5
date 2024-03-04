@@ -1,0 +1,16 @@
+MI 449 Class notes 3/4
+---
+State
+    - "The state of the user, basically the history of the page kept on the server."
+    - for web services, we control the state: API
+
+Application Program Interface (API)
+    - no user interface, only machine interface
+    - Formats: XML, JSON
+    - Protocol: REST, GraphQL, SOAP
+
+- www.site/"?'string'=" - this is a "Get" request
+- "Post" request - anytime you submit something, sends user data back to the server for processing and storage
+- "Update & Delete" - updating a password example
+
+- REST is for all of this stuff i think lol, HTTP VERBS
