@@ -16,6 +16,6 @@ function generate() {
     return {
         get name() {
             return joined;
-        },
+        }
     }
 }

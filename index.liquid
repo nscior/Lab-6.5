@@ -15,7 +15,7 @@ title: Random Chord Name Generator
 <body>
     <div x-data="generate">
         <h1 x-text="name"></h1>
-        <button @click="name = name">Generate Chord</button>
+        <button x-on:click="name = name">Generate Chord</button>    
     </div>
     <script src="names.js"></script>
 </body>
